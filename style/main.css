@@ -9,12 +9,57 @@
     box-sizing: border-box;
 }
 
+/*elementos base*/
 body {
     background: var(--preto);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    color: white;
 }
 
 header .containter {
-    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+/*filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('https://image.tmdb.org/t/p/original/vLnYnApolGhlLsH7zmIOcI70tHu.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 60px;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
