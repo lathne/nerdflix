@@ -6,12 +6,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="/style/responsive.css">
+
     <title>NerdFlix</title>
 </head>
 
 <body>
     <header>
-        <div class="containter">
+        <div class="container">
             <h2 class="logo">NERDFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
@@ -26,18 +34,54 @@
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo">Battlestar Galactica</h3>
-                <p class="descricao">Cylons - máquinas criadas por humanos - atacam seus criadores que agora vagam pelo espaço a procura da Terra. As 12 Tribos de Kobol tem que lidar com falta de recursos, revolta, conspirações políticas enquanto fogem dos Cylons. Refilmagem da série de mesmo nome da década de 80. Battlestar Galactica não é uma série comum de ficção cientí­fica, aborda religião, preconceito, polí­tica e diversos outros temas em um cenário inusitado, sem deixar de lado a ação e o suspense que se espera de uma série deste tipo.</p>
+                <p class="descricao">Cylons - máquinas criadas por humanos - atacam seus criadores que agora vagam pelo espaço a procura da Terra. As 12 Tribos de Kobol tem que lidar com falta de recursos, revolta, conspirações políticas enquanto fogem dos Cylons.</p>
                 <div class="botoes">
                     <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
                     <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
                 </div>
             </div>
         </div>
     </main>
+
+    <div class="carousel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/original/jE4gGFaNScqEtK0Z05zayF5CdpA.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/original/msWDv3MzBC4cM5fk9B0HgbKiMQ1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w220_and_h330_face/qgtHj2YyIMwGCCq2QQfWUvkqAUx.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w220_and_h330_face/30erzlzIOtOK3k3T3BAl1GiVMP1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w220_and_h330_face/pUBFMKMSeI829Wwj0c39qxYdKx7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w220_and_h330_face/gE5cauMA58nHs9Ued5XymnEcU0f.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://images-na.ssl-images-amazon.com/images/I/61z6C-Kh7VL._AC_SY741_.jpg.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w220_and_h330_face/f2wbC7fxiOJqzTb6HPr4N6bsjLF.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/0fa360d601.js" crossorigin="anonymous"></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/setup.js"></script>
 
 </body>
 </html>
